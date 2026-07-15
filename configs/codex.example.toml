@@ -1,0 +1,6 @@
+# Codex CLI: добавьте этот блок в ~/.codex/config.toml
+# (на Windows: command = "cmd", args = ["/c", "C:\\Users\\ВАШЕ_ИМЯ\\.instagram-mcp\\run.cmd"])
+
+[mcp_servers.instagram]
+command = "/Users/ВАШЕ_ИМЯ/.instagram-mcp/run.sh"
+args = []

@@ -1,0 +1,21 @@
+# Секреты — никогда не должны попасть в git
+.env
+.env.*
+!.env.example
+*.env
+token.json
+app-secret.*
+app secret*
+
+# Сборка и зависимости
+node_modules/
+dist/
+coverage/
+*.log
+
+# Личная аналитика и рабочие артефакты
+queries/
+reports/
+.DS_Store
+Thumbs.db
+*.backup-*

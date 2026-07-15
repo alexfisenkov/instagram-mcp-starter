@@ -1,0 +1,30 @@
+{
+  "name": "meta-instagram-mcp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Локальный MCP-сервер для официального Meta Instagram API: авторизация, аккаунт, посты, комментарии, инсайты — read-only.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfisenkov/instagram-mcp-starter.git"
+  },
+  "bin": {
+    "meta-instagram-mcp": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instagram": {
+      "command": "cmd",
+      "args": ["/c", "C:\\Users\\ВАШЕ_ИМЯ\\.instagram-mcp\\run.cmd"]
+    }
+  }
+}

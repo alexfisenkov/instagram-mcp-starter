@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "instagram": {
+      "command": "/Users/ВАШЕ_ИМЯ/.instagram-mcp/run.sh"
+    }
+  }
+}
